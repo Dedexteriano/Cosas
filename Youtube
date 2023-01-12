@@ -1,0 +1,174 @@
+<!DOCTYPE HTML> 
+<html>
+  <body>
+    <input class="Search-bar" type="text" placeholder="Search">
+    <div class="video-grid">
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-1.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-1.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+           <p class="Channel">Marques Brownlee</p>
+           <p class="Data">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-2.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-2.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Try Not To Laugh Challenge #9</p>
+           <p class="Channel">Markiplier</p>
+           <p class="Data">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-1.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-1.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+           <p class="Channel">Marques Brownlee</p>
+           <p class="Data">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-2.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-2.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Try Not To Laugh Challenge #9</p>
+           <p class="Channel">Markiplier</p>
+           <p class="Data">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-1.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-1.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+           <p class="Channel">Marques Brownlee</p>
+           <p class="Data">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="Video-Preview">
+        <div>
+          <img class="Thumbnail-one" src="Thumbnails/thumbnail-2.webp">
+        </div>
+        <div class="video-info-grid">
+          <div class="Channel-picture">
+            <img class="profile-picture" src="Profile-pictures/channel-2.jpeg">
+          </div>
+          <div class="Video-info">
+            <p class="Title">Try Not To Laugh Challenge #9</p>
+           <p class="Channel">Markiplier</p>
+           <p class="Data">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <title>Sobala youtube</title>
+    <style>
+
+      .video-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
+      }
+
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+
+      .profile-picture {
+        width: 40px;
+        border-radius: 40px;
+
+      }
+      p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: Roboto, Arial;
+      }
+      .Thumbnail-one {
+        width: 300px;
+        margin-bottom: 6px;
+        display: block;
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+      }
+      .Search-bar {
+        opacity: 1;
+        margin-bottom: 12px;
+        display: block;
+      }
+      .Title {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        color: black;
+        margin-bottom: 16px;
+      
+      }
+      .Title-2 {
+        width: 300px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        color: black;
+        margin-bottom: 16px;
+      }
+    
+      .Data,
+      .Channel {
+       color: gray;
+       font-size: 12px;
+       margin-bottom: 4px;
+      }
+      .Video-Preview {
+        width: 100%;
+      }
+    </style>
+  </head>
+</html>
